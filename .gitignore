@@ -7,3 +7,4 @@ scratch/
 *.pyc
 __pycache__/
 *.log
+calderquinn-app-spec.yaml

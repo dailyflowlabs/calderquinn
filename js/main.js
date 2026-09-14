@@ -152,9 +152,10 @@ document.addEventListener('DOMContentLoaded', () => {
     tracks.forEach((t, idx) => {
       const row = document.createElement('div');
       row.className = `track-row ${idx === 0 ? 'active' : ''}`;
+      const trackNum = (idx + 1) < 10 ? '0' + (idx + 1) : String(idx + 1);
       row.innerHTML = `
         <div class="track-info">
-          <span class="track-index">0${idx + 1}</span>
+          <span class="track-index">${trackNum}</span>
           <div>
             <span class="track-name">${t.title}</span>
             <span class="track-vibe">${t.vibe}</span>

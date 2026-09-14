@@ -1,26 +1,82 @@
 [
   {
+    "id": "halfway-home",
+    "title": "01. Halfway Home",
+    "duration": "1:27",
+    "file": "music/01 - Halfway Home.mp3",
+    "vibe": "Driving Heartland Rhythm",
+    "description": "Late-night asphalt rhythm, four-on-the-floor kick, and urgent heartland rock vocals."
+  },
+  {
+    "id": "the-mill-clock",
+    "title": "02. The Mill Clock",
+    "duration": "3:11",
+    "file": "music/02 - The Mill Clock.mp3",
+    "vibe": "Rustbelt Acoustic Anthem",
+    "description": "Weathered acoustic guitar, pulsing bassline, and working-class poetry marking time on the factory floor."
+  },
+  {
+    "id": "born-for-the-passenger-seat",
+    "title": "03. Born for the Passenger Seat",
+    "duration": "3:11",
+    "file": "music/03 - Born for the Passenger Seat.mp3",
+    "vibe": "Roadhouse Americana",
+    "description": "Steady highway tempo, Telecaster bite, and bittersweet reflections from the shotgun side of the cab."
+  },
+  {
     "id": "leave-the-light-in-the-hollow",
-    "title": "Leave the Light in the Hollow",
+    "title": "04. Leave the Light in the Hollow",
     "duration": "3:32",
-    "file": "music/Leave the Light in the Hollow.mp3",
+    "file": "music/04 - Leave the Light in the Hollow.mp3",
     "vibe": "Anthemic Heartland Belt",
     "description": "The explosive lead single \u2014 rising from quiet kitchen gravel into a roof-shaking chest-voice cry."
   },
   {
-    "id": "if-lonelys-a-country",
-    "title": "If Lonely's a Country",
+    "id": "cheap-amen",
+    "title": "05. Cheap Amen",
+    "duration": "3:00",
+    "file": "music/05 - Cheap Amen.mp3",
+    "vibe": "Gravel Gospel & Stomp",
+    "description": "Foot-stomping acoustic grit and front-pew confessionals on grace, second chances, and Sunday morning doubts."
+  },
+  {
+    "id": "whiskey-weather",
+    "title": "06. Whiskey Weather",
     "duration": "3:17",
-    "file": "music/If Lonely's a Country.mp3",
+    "file": "music/06 - Whiskey Weather.mp3",
+    "vibe": "Slow-Burn Country Soul",
+    "description": "Rain on a tin roof, warm Rhodes piano, and whiskey-soaked melancholia as cold fronts roll through."
+  },
+  {
+    "id": "dont-wait-up",
+    "title": "07. Don't Wait Up",
+    "duration": "2:37",
+    "file": "music/07 - Don't Wait Up.mp3",
+    "vibe": "Midwestern Fast-Burner",
+    "description": "Driving rhythm acoustic, urgent vocal delivery, and the restless pull of headlights on the blacktop."
+  },
+  {
+    "id": "the-letter-i-dont-send",
+    "title": "08. The Letter I Don't Send",
+    "duration": "3:04",
+    "file": "music/08 - The Letter I Don't Send.mp3",
+    "vibe": "Intimate Heartbreak Ballad",
+    "description": "Raw, unadorned acoustic picking and aching falsetto breaks on unsent words and long memories."
+  },
+  {
+    "id": "if-lonelys-a-country",
+    "title": "09. If Lonely's a Country",
+    "duration": "3:17",
+    "file": "music/09 - If Lonely's a Country.mp3",
     "vibe": "Acoustic Folk-Ballad",
     "description": "Intimate front-porch fingerpicking and room piano on memory, solitude, and learning to live in a habit."
   },
   {
-    "id": "halfway-home",
-    "title": "Halfway Home",
-    "duration": "1:28",
-    "file": "music/Halfway Home.mp3",
-    "vibe": "Driving Heartland Rhythm",
-    "description": "Late-night asphalt rhythm, four-on-the-floor kick, and urgent heartland rock vocals."
+    "id": "thats-the-whole-prayer",
+    "title": "10. That's the Whole Prayer",
+    "duration": "3:33",
+    "file": "music/10 - That's the Whole Prayer.mp3",
+    "vibe": "Appalachian Benediction",
+    "description": "Reverent acoustic chords and soaring vocal resonance closing the album with humble, raw gratitude."
   }
 ]
