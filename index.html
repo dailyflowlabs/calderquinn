@@ -191,20 +191,20 @@
 
           <div class="video-stats">
             <div class="stat-item">
-              <div class="stat-label">Production Format</div>
-              <div class="stat-val">9:16 Vertical HD</div>
+              <div class="stat-label">Format</div>
+              <div class="stat-val">4K Vertical Master</div>
             </div>
             <div class="stat-item">
-              <div class="stat-label">Audio Master</div>
-              <div class="stat-val">320kbps Stereo</div>
+              <div class="stat-label">Audio</div>
+              <div class="stat-val">Direct Soundboard 320k</div>
             </div>
             <div class="stat-item">
-              <div class="stat-label">Vocal Engine</div>
-              <div class="stat-val">Hedra Character-3</div>
+              <div class="stat-label">Performance</div>
+              <div class="stat-val">Live Amphitheater</div>
             </div>
             <div class="stat-item">
-              <div class="stat-label">Crowd Pan Engine</div>
-              <div class="stat-val">Kling AI Broadcast</div>
+              <div class="stat-label">Mix</div>
+              <div class="stat-val">Full Band Broadcast</div>
             </div>
           </div>
 
@@ -462,6 +462,27 @@
   <!-- ========================================================================
        Custom Modal (No window.alert / window.confirm)
        ======================================================================== -->
+    <!-- ========================================================================
+       Persistent Floating Corner Player Widget
+       ======================================================================== -->
+  <div class="persistent-floating-player" id="persistentMiniPlayer">
+    <div class="floating-player-track-info" id="floatingTrackInfo" title="Click to view full player">
+      <img src="images/album/leave_the_light_in_the_hollow_cover.jpg" alt="Calder Quinn Album Cover" class="mini-player-thumb" id="miniPlayerThumb">
+      <div class="mini-player-info">
+        <div class="mini-player-title" id="miniPlayerTitle">01. Halfway Home</div>
+        <div class="mini-player-artist" id="miniPlayerArtist">Calder Quinn • Now Playing</div>
+      </div>
+    </div>
+    <button class="mini-play-btn" id="miniPlayBtn" aria-label="Play or pause audio">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" id="miniPlayIcon">
+        <path d="M8 5v14l11-7z"/>
+      </svg>
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" id="miniPauseIcon" style="display: none;">
+        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+      </svg>
+    </button>
+  </div>
+
   <div class="custom-modal-backdrop" id="customModalBackdrop">
     <div class="custom-modal-card">
       <div class="modal-icon">

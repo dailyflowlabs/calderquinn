@@ -50,6 +50,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const nowPlayingDesc = document.getElementById('nowPlayingDesc');
   const tracklistContainer = document.getElementById('tracklistContainer');
 
+  // Mini Floating Player Elements
+  const persistentMiniPlayer = document.getElementById('persistentMiniPlayer');
+  const miniPlayerTitle = document.getElementById('miniPlayerTitle');
+  const miniPlayerArtist = document.getElementById('miniPlayerArtist');
+  const miniPlayerThumb = document.getElementById('miniPlayerThumb');
+  const miniPlayBtn = document.getElementById('miniPlayBtn');
+  const miniPlayIcon = document.getElementById('miniPlayIcon');
+  const miniPauseIcon = document.getElementById('miniPauseIcon');
+  const floatingTrackInfo = document.getElementById('floatingTrackInfo');
+
   function formatTime(seconds) {
     if (isNaN(seconds)) return '0:00';
     const m = Math.floor(seconds / 60);
@@ -66,6 +76,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (nowPlayingTitle) nowPlayingTitle.textContent = track.title;
     if (nowPlayingDesc) nowPlayingDesc.textContent = track.description;
+
+    if (miniPlayerTitle) miniPlayerTitle.textContent = track.title;
+    if (miniPlayerArtist) miniPlayerArtist.textContent = 'Calder Quinn • ' + (track.vibe || 'Debut Album');
 
     document.querySelectorAll('.track-row').forEach((row, i) => {
       row.classList.toggle('active', i === currentTrackIndex);
@@ -90,6 +103,22 @@ document.addEventListener('DOMContentLoaded', () => {
       playIcon.style.display = isPlaying ? 'none' : 'block';
       pauseIcon.style.display = isPlaying ? 'block' : 'none';
     }
+    if (miniPlayIcon && miniPauseIcon) {
+      miniPlayIcon.style.display = isPlaying ? 'none' : 'block';
+      miniPauseIcon.style.display = isPlaying ? 'block' : 'none';
+    }
+    if (miniPlayerThumb) {
+      if (isPlaying) {
+        miniPlayerThumb.classList.add('spinning');
+      } else {
+        miniPlayerThumb.classList.remove('spinning');
+      }
+    }
+    if (persistentMiniPlayer) {
+      if (isPlaying) {
+        persistentMiniPlayer.classList.add('visible');
+      }
+    }
   }
 
   if (playPauseBtn) playPauseBtn.addEventListener('click', togglePlay);
@@ -103,6 +132,20 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.play();
     updatePlayState(true);
   });
+
+  if (miniPlayBtn) {
+    miniPlayBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      togglePlay();
+    });
+  }
+
+  if (floatingTrackInfo) {
+    floatingTrackInfo.addEventListener('click', () => {
+      const musicSec = document.getElementById('music');
+      if (musicSec) musicSec.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
 
   // Time & Progress Updates
   audio.addEventListener('timeupdate', () => {
