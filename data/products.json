@@ -8373,7 +8373,7 @@
   {
     "id": "6aa7b113175f80049b00f82f",
     "title": "Calder Quinn - Distressed Foam Trucker Hat",
-    "description": "The official Calder Quinn signature washed trucker cap. High-density print on durable foam front with vintage mesh back and snapback closure.",
+    "description": "The official Calder Quinn signature washed foam trucker cap with custom embroidered-style Appalachian Pine Hollow patch, breathable mesh back, and adjustable snapback closure.",
     "tags": [
       "Embroidery",
       "Hats",
@@ -8926,12 +8926,12 @@
       }
     ],
     "created_at": "2026-09-14 08:32:19+00:00",
-    "updated_at": "2026-09-14 08:32:21+00:00",
+    "updated_at": "2026-09-14 23:56:14+00:00",
     "visible": true,
     "is_locked": false,
     "external": {
       "id": "6aa7b113175f80049b00f82f",
-      "handle": "https://calderquinn.com/merch/6aa7b113175f80049b00f82f",
+      "handle": "https://calderquinn.com/merch#6aa7b113175f80049b00f82f",
       "type": 6
     },
     "blueprint_id": 1735,
@@ -8960,20 +8960,20 @@
             "position": "front_dtf",
             "images": [
               {
-                "id": "6aa7b0ee53a8f4f10ef6f8de",
-                "name": "calder_quinn_album_3000x3000.jpg",
+                "id": "6aa888aca1f8cade2f257a24",
+                "name": "calder_quinn_trucker_hat_patch.jpg",
                 "type": "image/jpeg",
-                "height": 3000,
-                "width": 3000,
+                "height": 768,
+                "width": 1376,
                 "x": 0.5,
                 "y": 0.5,
                 "flipX": false,
                 "flipY": false,
                 "scale": 1,
                 "angle": 0,
-                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/28198904/fb818a62-f9ec-4323-9d43-b0524bc3fba8",
+                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/28198904/e70852cb-2bcb-42c0-b2c2-3813047d455a",
                 "layerType": "image",
-                "imageId": "6aa7b0ee53a8f4f10ef6f8de_2939f598-d20b-3170-ffc8-d2aa5e6fb112"
+                "imageId": "6aa888aca1f8cade2f257a24_a632de6d-4486-a23a-fa94-91ce11d2db8e"
               }
             ],
             "decoration_method": "dtf"
@@ -9020,7 +9020,7 @@
   {
     "id": "6aa7b11747e1c932e60d0fa0",
     "title": "Calder Quinn - Appalachian Campfire Ceramic Mug (11oz)",
-    "description": "Official Calder Quinn high-gloss ceramic mug featuring crisp debut album artwork and Appalachian typography. Microwave and dishwasher safe.",
+    "description": "Official Calder Quinn high-gloss ceramic campfire mug featuring custom Appalachian Pine Hollow artwork. Microwave and dishwasher safe.",
     "tags": [
       "Home & Living",
       "Mugs",
@@ -9132,12 +9132,12 @@
       }
     ],
     "created_at": "2026-09-14 08:32:23+00:00",
-    "updated_at": "2026-09-14 08:32:25+00:00",
+    "updated_at": "2026-09-14 23:56:15+00:00",
     "visible": true,
     "is_locked": false,
     "external": {
       "id": "6aa7b11747e1c932e60d0fa0",
-      "handle": "https://calderquinn.com/merch/6aa7b11747e1c932e60d0fa0",
+      "handle": "https://calderquinn.com/merch#6aa7b11747e1c932e60d0fa0",
       "type": 6
     },
     "blueprint_id": 68,
@@ -9154,20 +9154,20 @@
             "position": "front",
             "images": [
               {
-                "id": "6aa7b0ee53a8f4f10ef6f8de",
-                "name": "calder_quinn_album_3000x3000.jpg",
-                "type": "image/jpeg",
-                "height": 3000,
-                "width": 3000,
+                "id": "6aa8892a2af1bf7648521761",
+                "name": "calder_quinn_campfire_mug_wrap.png",
+                "type": "image/png",
+                "height": 1120,
+                "width": 2700,
                 "x": 0.5,
                 "y": 0.5,
                 "flipX": false,
                 "flipY": false,
                 "scale": 1,
                 "angle": 0,
-                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/28198904/fb818a62-f9ec-4323-9d43-b0524bc3fba8",
+                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/28198904/8c33b9f5-2f93-4d41-b6ac-ba717775c8a3",
                 "layerType": "image",
-                "imageId": "6aa7b0ee53a8f4f10ef6f8de_2dd888d9-80fb-118b-3aca-c17074fecd0a"
+                "imageId": "6aa8892a2af1bf7648521761_3de720a8-3ce8-d414-551f-cd005cae319c"
               }
             ],
             "decoration_method": "dye-sublimation"
