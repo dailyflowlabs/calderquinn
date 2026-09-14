@@ -2,36 +2,31 @@
 
 ---
 
-### 1. Facebook Page Bio (Short / Intro Box — Under 255 Characters)
-> **Heartland Americana & rustbelt country from the Appalachian foothills. Real songs for long shifts and quiet roads. Debut single "Leave the Light in the Hollow" out now.**
+### 1. Facebook Page Bio (Short / Intro Box — Max 101/255 Chars)
+> Heartland Americana & rustbelt country from the Appalachian foothills. 10-track debut album "Leave the Light in the Hollow" out now. 🌲📻
 
 ---
 
-### 2. Facebook "About" / Full Artist Biography (Long Form)
-> Born and raised near the timber mills and gravel hollows of the Appalachian foothills, **Calder Quinn** delivers heartland Americana stripped down to its honest bone. 
+### 2. Facebook "About" / Full Artist Biography (Page Details & Story)
+> Born and raised where the asphalt turns to gravel in the Appalachian foothills, Calder Quinn makes heartland Americana stripped down to its honest bone.
 >
-> With a beat-up acoustic guitar, a broken-in ball cap pulled low, and a voice that carries the weight of a ten-hour shift, Calder writes for the people who know what it feels like to leave a porch light burning out of habit. His music doesn't chase polished city trends—it lives in coffee rings on hardware store counters, dusty pickup tailgates at dusk, and late-night highway lines where you talk to headlights on the wall.
+> With a weathered Martin acoustic, a broken-in cap pulled low, and a voice that carries the weight of a ten-hour mill shift, Calder writes for the folks who know what it feels like to leave a porch light burning out of habit. His music lives in coffee rings on hardware store counters, dusty pickup tailgates at twilight, and empty two-lane highways where you talk to headlights on the wall.
 >
-> When his quiet, gravelly verses erupt into a roof-shaking chest-voice belt on anthems like **"Leave the Light in the Hollow"**, you hear the sound of a working man throwing his whole chest at heaven just to hear it throw it back again.
+> From the four-on-the-floor asphalt drive of "Halfway Home" to the roof-shaking chest-voice roar of the title track "Leave the Light in the Hollow" and the quiet reverie of "That's the Whole Prayer," Calder’s 10-track debut record isn't chasing polished trends—it’s honest working-class poetry made for the ride home.
 >
-> 🎧 **Stream the music & watch the live concert broadcast:** http://localhost:3002
+> 🌲 Debut 10-track album out now.
+> 🎧 Stream all tracks, watch the live concert & grab merch at: https://calderquinn.com
+> ✉️ Join The Hollow Club: https://calderquinn.com/#join
 
 ---
 
-### 3. Instagram / TikTok Bio (Short & Punchy)
-> **Calder Quinn**  
-> 🎙️ Heartland Americana & Rustbelt Country  
-> 🔨 Mill shifts, timber hills & honest songs  
-> 📻 "Leave the Light in the Hollow" OUT NOW  
-> 🔗 calderquinn.com
-
----
-
-### 4. Debut Facebook Post / Launch Announcement
-> **"I can hold it in the kitchen, I can hold it in the truck... but the second that night hits the ridgeline."**
+### 3. Debut Facebook Launch Post (Pair with 3000x3000 Album Art)
+> "I can hold it in the kitchen, I can hold it in the truck... but the second that night hits the ridgeline, I leave the light in the hollow."
 >
-> Proud to share my debut single and live concert broadcast for **"Leave the Light in the Hollow"**. 
+> My debut 10-track album "Leave the Light in the Hollow" is out now.
 >
-> Wrote this song about the places we hide our grief and the moments where being quiet stops working. Turn it up loud in your truck tonight. 
+> Wrote these songs for long shifts, back-road drives, and the quiet moments we keep to ourselves. From "Halfway Home" to "That's the Whole Prayer," every word was lived before it was sung.
 >
-> 🎬 Watch the full live amphitheater cut & stream all 3 tracks now at: http://localhost:3002
+> Put the tailgate down, turn the volume up, and let me know which track hits home for you.
+>
+> 📻 Stream the complete 10-track record & watch the live concert at: https://calderquinn.com
