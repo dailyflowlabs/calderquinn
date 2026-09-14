@@ -1,0 +1,26 @@
+[
+  {
+    "id": "leave-the-light-in-the-hollow",
+    "title": "Leave the Light in the Hollow",
+    "duration": "3:32",
+    "file": "music/Leave the Light in the Hollow.mp3",
+    "vibe": "Anthemic Heartland Belt",
+    "description": "The explosive lead single \u2014 rising from quiet kitchen gravel into a roof-shaking chest-voice cry."
+  },
+  {
+    "id": "if-lonelys-a-country",
+    "title": "If Lonely's a Country",
+    "duration": "3:17",
+    "file": "music/If Lonely's a Country.mp3",
+    "vibe": "Acoustic Folk-Ballad",
+    "description": "Intimate front-porch fingerpicking and room piano on memory, solitude, and learning to live in a habit."
+  },
+  {
+    "id": "halfway-home",
+    "title": "Halfway Home",
+    "duration": "1:28",
+    "file": "music/Halfway Home.mp3",
+    "vibe": "Driving Heartland Rhythm",
+    "description": "Late-night asphalt rhythm, four-on-the-floor kick, and urgent heartland rock vocals."
+  }
+]

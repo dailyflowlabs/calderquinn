@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calder Quinn — Official Site | Heartland Americana & Rustbelt Country</title>
+
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Official website of Calder Quinn. Stream debut tracks 'Leave the Light in the Hollow', 'If Lonely's a Country', and 'Halfway Home'. Gritty Americana, working-class soul.">
+  <meta property="og:title" content="Calder Quinn — Leave the Light in the Hollow">
+  <meta property="og:description" content="Official platform for Calder Quinn. Raw, poetic rustbelt country and Appalachian heartland soul.">
+  <meta property="og:image" content="images/album/leave_the_light_in_the_hollow_cover.jpg">
+  <meta property="og:type" content="music.musician">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="images/social/facebook_profile.jpg">
+
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Navigation Bar
+       ======================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#" class="nav-brand">
+        <span>CALDER QUINN</span>
+        <span class="brand-badge">Official</span>
+      </a>
+
+      <nav class="nav-links" id="navMenu">
+        <a href="#music" class="nav-link">Music</a>
+        <a href="#video" class="nav-link">Live Concert</a>
+        <a href="#merch" class="nav-link">Store</a>
+        <a href="#story" class="nav-link">The Story</a>
+        <a href="#gallery" class="nav-link">Visuals</a>
+        <a href="#join" class="nav-link">Fan Club</a>
+        <a href="#music" class="btn-nav">Listen Now</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       Hero Section
+       ======================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg">
+      <img src="images/social/facebook_cover.jpg" alt="Calder Quinn with acoustic guitar on vintage pickup at twilight">
+      <div class="hero-overlay"></div>
+      <div class="hero-vignette"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-tag">
+        <span class="dot"></span>
+        <span>Debut Release Out Now</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span>CALDER QUINN</span>
+        LEAVE THE LIGHT IN THE HOLLOW
+      </h1>
+
+      <p class="hero-lead">
+        Working-class poetry forged in the Appalachian foothills. Raw chest-voice belting, weathered acoustic picking, and songs born where the dark begins.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#music" class="btn btn-primary" id="heroListenBtn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+          <span>Stream Tracks</span>
+        </a>
+        <a href="#video" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+          </svg>
+          <span>Watch Live Concert</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Music Player Section
+       ======================================================================== -->
+  <section class="music-section" id="music">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Discography</span>
+        <h2 class="section-title">The Music</h2>
+        <p class="section-desc">Stream all three original studio cuts directly from the master recordings.</p>
+      </div>
+
+      <div class="player-card">
+        <div class="player-artwork">
+          <img src="images/album/leave_the_light_in_the_hollow_cover.jpg" alt="Leave the Light in the Hollow Album Art" id="playerCoverImg">
+        </div>
+
+        <div class="player-details">
+          <div>
+            <div class="player-status-badge">
+              <span class="pulse-dot"></span>
+              <span>Now Playing</span>
+            </div>
+            <h3 class="now-playing-title" id="nowPlayingTitle">Leave the Light in the Hollow</h3>
+            <div class="now-playing-artist">Calder Quinn</div>
+            <p class="now-playing-desc" id="nowPlayingDesc">
+              The explosive lead single — rising from quiet kitchen gravel into a roof-shaking chest-voice cry.
+            </p>
+          </div>
+
+          <!-- Progress bar -->
+          <div class="progress-container">
+            <span class="time-label" id="currentTime">0:00</span>
+            <div class="progress-bar-wrapper" id="progressBar">
+              <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <span class="time-label" id="duration">3:32</span>
+          </div>
+
+          <!-- Controls -->
+          <div class="player-controls">
+            <button class="btn-control" id="prevBtn" aria-label="Previous Track">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
+              </svg>
+            </button>
+
+            <button class="btn-control btn-play-pause" id="playPauseBtn" aria-label="Play or Pause">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" id="playIcon">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" id="pauseIcon" style="display: none;">
+                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+              </svg>
+            </button>
+
+            <button class="btn-control" id="nextBtn" aria-label="Next Track">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Track List Table -->
+      <div class="track-list" id="tracklistContainer">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Live Concert Video Section
+       ======================================================================== -->
+  <section class="video-section" id="video">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Live Broadcast</span>
+        <h2 class="section-title">Leave the Light in the Hollow</h2>
+        <p class="section-desc">Multi-camera festival amphitheater live concert broadcast cut.</p>
+      </div>
+
+      <div class="video-wrapper">
+        <div class="video-player-container">
+          <video src="videos/Calder_Quinn_LeaveTheLightInTheHollow_38s_Concert_Master.mp4" poster="videos/Calder_Quinn_LeaveTheLightInTheHollow_Thumbnail.jpg" controls playsinline preload="metadata"></video>
+        </div>
+
+        <div class="video-info">
+          <h3>The Stage Cut</h3>
+          <p>
+            Captured live under the amber lights of an outdoor summer amphitheater. From the tense, gravelly pre-chorus build (*"I can hold it in the kitchen, I can hold it in the truck..."*) to the roof-shaking belted climax and roaring festival crowd.
+          </p>
+
+          <div class="video-stats">
+            <div class="stat-item">
+              <div class="stat-label">Production Format</div>
+              <div class="stat-val">9:16 Vertical HD</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Audio Master</div>
+              <div class="stat-val">320kbps Stereo</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Vocal Engine</div>
+              <div class="stat-val">Hedra Character-3</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">Crowd Pan Engine</div>
+              <div class="stat-val">Kling AI Broadcast</div>
+            </div>
+          </div>
+
+          <a href="videos/Calder_Quinn_LeaveTheLightInTheHollow_38s_Concert_Master.mp4" download class="btn btn-primary">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+            </svg>
+            <span>Download Master Video</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       The Story / Bio Section
+       ======================================================================== -->
+  
+  <!-- ========================================================================
+       Merch / General Provisioner Section
+       ======================================================================== -->
+  <section class="merch-section" id="merch">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">General Store</span>
+        <h2 class="section-title">Official Provisioner</h2>
+        <p class="section-desc">Rugged apparel, heavy fleece, and campfire essentials built for back roads and cold nights in the hollow.</p>
+      </div>
+
+      <div class="merch-grid">
+        <!-- Product 1: Distressed Trucker Hat -->
+        <div class="merch-card">
+          <div class="merch-img-wrap">
+            <img src="images/merch/trucker_hat.jpg" alt="Calder Quinn Distressed Canvas Trucker Hat" class="merch-img">
+            <span class="merch-badge">Calder's Cap</span>
+          </div>
+          <div class="merch-body">
+            <span class="merch-tag">Washed Canvas Snapback</span>
+            <h4 class="merch-title">Distressed Canvas Trucker Hat</h4>
+            <div class="merch-price-row">
+              <span class="merch-price">$26.00</span>
+              <span class="merch-curr">USD</span>
+            </div>
+            <p class="merch-desc">Vintage tobacco brown washed cotton with breathable mesh, pre-curved distressed brim, and embroidered Appalachian crest.</p>
+            <button class="merch-buy-btn" onclick="openMerchModal('calder_hat_01')">
+              <span>Select & Order</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 2: Heavyweight Tee -->
+        <div class="merch-card">
+          <div class="merch-img-wrap">
+            <img src="images/merch/vintage_tee.jpg" alt="Leave the Light in the Hollow Vintage Tee" class="merch-img">
+            <span class="merch-badge">Debut Single</span>
+          </div>
+          <div class="merch-body">
+            <span class="merch-tag">6.1oz Garment-Dyed Cotton</span>
+            <h4 class="merch-title">Leave the Light in the Hollow Vintage Tee</h4>
+            <div class="merch-price-row">
+              <span class="merch-price">$34.00</span>
+              <span class="merch-curr">USD</span>
+            </div>
+            <p class="merch-desc">Washed coal charcoal heavyweight tee with distressed hand-drawn lettering and Appalachian pine ridge horizon screenprint.</p>
+            <button class="merch-buy-btn" onclick="openMerchModal('calder_tee_01')">
+              <span>Select Size & Order</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 3: Chore Fleece Hoodie -->
+        <div class="merch-card">
+          <div class="merch-img-wrap">
+            <img src="images/merch/chore_hoodie.jpg" alt="Campfire Chore Fleece Hoodie" class="merch-img">
+            <span class="merch-badge">Heavy 400gsm</span>
+          </div>
+          <div class="merch-body">
+            <span class="merch-tag">Weathered Dark Olive</span>
+            <h4 class="merch-title">Campfire Chore Fleece Hoodie</h4>
+            <div class="merch-price-row">
+              <span class="merch-price">$58.00</span>
+              <span class="merch-curr">USD</span>
+            </div>
+            <p class="merch-desc">Heavyweight brushed fleece in dark olive with double-stitched seams, brass eyelets, and heartland chest emblem.</p>
+            <button class="merch-buy-btn" onclick="openMerchModal('calder_hoodie_01')">
+              <span>Select Size & Order</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 4: Speckled Enamel Mug -->
+        <div class="merch-card">
+          <div class="merch-img-wrap">
+            <img src="images/merch/coffee_mug.jpg" alt="Talk to Headlights Campfire Mug" class="merch-img">
+            <span class="merch-badge">Tailgate Essential</span>
+          </div>
+          <div class="merch-body">
+            <span class="merch-tag">16oz Steel Enamel</span>
+            <h4 class="merch-title">Talk to Headlights Campfire Mug</h4>
+            <div class="merch-price-row">
+              <span class="merch-price">$18.00</span>
+              <span class="merch-curr">USD</span>
+            </div>
+            <p class="merch-desc">Speckled rustic cream enamel mug with dark forest green rim. Laser engraved with the Appalachian crest and track lyrics.</p>
+            <button class="merch-buy-btn" onclick="openMerchModal('calder_mug_01')">
+              <span>Order Campfire Mug</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bio-section" id="story">
+    <div class="container">
+      <div class="bio-grid">
+        <div class="bio-photo-stack">
+          <img src="images/01_calder_front_anchor.jpg" alt="Calder Quinn on truck tailgate with acoustic guitar" class="bio-photo-main">
+          <div class="bio-card-quote">
+            <p>"If I go quiet I disappear, so I sing it till it thins."</p>
+            <span>— Calder Quinn</span>
+          </div>
+        </div>
+
+        <div class="bio-text">
+          <span class="section-tag">The Artist</span>
+          <h2>Working-Class Poetry. Unvarnished Soul.</h2>
+          
+          <p>
+            Born and raised near the timber hills and quiet creeks of the Appalachian foothills, Calder Quinn writes songs for people who know the weight of a long shift and the silence of an empty kitchen. With a beat-up acoustic guitar, a broken-in baseball cap pulled low, and a heavy five o'clock shadow, Calder delivers heartland Americana stripped down to its honest bone.
+          </p>
+
+          <p>
+            He doesn't sing about polished city lights. His lyrics live in coffee rings on hardware store counters, dusty pickup tailgates at twilight, and late-night drives where you talk to headlights on the wall. When his voice climbs from a low, gravelly whisper into a full chest-voice roar on <em>"Leave the Light in the Hollow"</em>, you feel every mile of road behind him.
+          </p>
+
+          <div class="bio-traits">
+            <span class="trait-pill">🎙️ Heartland Americana</span>
+            <span class="trait-pill">🌲 Appalachian Rustbelt Soul</span>
+            <span class="trait-pill">🎸 Acoustic & Telecaster Grit</span>
+            <span class="trait-pill">🔨 Blue-Collar Storyteller</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Visual Gallery
+       ======================================================================== -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Visual Registry</span>
+        <h2 class="section-title">The Gallery</h2>
+        <p class="section-desc">Authentic turnaround photography, concert stills, and visual anchors.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/01_calder_front_anchor.jpg" alt="Calder Quinn Tailgate Anchor">
+          <div class="gallery-overlay">
+            <span class="gallery-title">Tailgate Strum Anchor</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/02_calder_three_quarter.jpg" alt="Porch Twilight Gaze">
+          <div class="gallery-overlay">
+            <span class="gallery-title">Porch Twilight Gaze</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/03_calder_side_profile.jpg" alt="Side Profile & Cap">
+          <div class="gallery-overlay">
+            <span class="gallery-title">Side Profile & Jawline</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/04_calder_full_body.jpg" alt="Pickup Truck Full Body">
+          <div class="gallery-overlay">
+            <span class="gallery-title">Full Body & Vintage Truck</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/05_calder_singing.jpg" alt="Raw Singing Performance">
+          <div class="gallery-overlay">
+            <span class="gallery-title">Barn Rehearsal Vocal Belt</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/crowd_concert_lawn.jpg" alt="Amphitheater Concert Crowd">
+          <div class="gallery-overlay">
+            <span class="gallery-title">Festival Amphitheater Lawn</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  
+  <!-- ========================================================================
+       The Hollow Fan Club / Newsletter Section
+       ======================================================================== -->
+  <section class="join-section" id="join">
+    <div class="container join-container">
+      <span class="section-tag">The Inner Circle</span>
+      <h2 class="section-title">Join The Hollow Club</h2>
+      <p class="section-desc">
+        Get raw acoustic demos, early tour notices, and behind-the-scenes recording cuts sent directly to your inbox before anywhere else.
+      </p>
+
+      <form class="join-form" id="newsletterForm">
+        <input type="email" id="newsletterEmail" class="join-input" required placeholder="Enter your email address...">
+        <button type="submit" class="join-btn" id="newsletterSubmitBtn">Join The Hollow</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">CALDER QUINN</div>
+      
+      <div class="footer-socials">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/>
+          </svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 2.89 3.5 2.75 1.43-.02 2.71-.97 3.1-2.35.2-.62.25-1.28.24-1.94.02-4.52.01-9.04.01-13.56z"/>
+          </svg>
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        &copy; 2026 Calder Quinn Music. All rights reserved. Built for the Appalachian heartland.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Custom Modal (No window.alert / window.confirm)
+       ======================================================================== -->
+  <div class="custom-modal-backdrop" id="customModalBackdrop">
+    <div class="custom-modal-card">
+      <div class="modal-icon">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+        </svg>
+      </div>
+      <h3 class="modal-title" id="modalTitle">Notice</h3>
+      <p class="modal-body" id="modalBody">Dialog message goes here.</p>
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="modalCloseBtn">Got it</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

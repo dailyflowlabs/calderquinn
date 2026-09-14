@@ -1,0 +1,149 @@
+[
+  {
+    "id": "calder_hat_01",
+    "title": "Calder Quinn Distressed Canvas Trucker Hat",
+    "description": "The official Calder Quinn signature washed trucker cap. Features heavyweight cotton front panels in weathered tobacco brown, breathable vintage mesh, and Calder's Appalachian ridge crest embroidered on the front. Pre-curved brim with authentic distressed edge detailing.",
+    "tags": [
+      "Hats",
+      "Accessories",
+      "Calder Quinn",
+      "Bestsellers"
+    ],
+    "price": 2600,
+    "images": [
+      {
+        "src": "images/merch/trucker_hat.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "cq_hat_one_size",
+        "title": "Vintage Tobacco / One Size (Snapback)",
+        "price": 2600,
+        "is_available": true
+      }
+    ]
+  },
+  {
+    "id": "calder_tee_01",
+    "title": "Leave the Light in the Hollow Vintage Heavyweight Tee",
+    "description": "Official debut release tee. 100% garment-dyed ring-spun cotton in washed coal charcoal. Pre-shrunk, heavyweight 6.1 oz feel with distressed hand-lettered album artwork and Appalachian pine horizon screenprint.",
+    "tags": [
+      "Apparel",
+      "T-Shirts",
+      "Calder Quinn",
+      "Debut Collection"
+    ],
+    "price": 3400,
+    "images": [
+      {
+        "src": "images/merch/vintage_tee.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "cq_tee_s",
+        "title": "Washed Charcoal / Small",
+        "price": 3400,
+        "is_available": true
+      },
+      {
+        "id": "cq_tee_m",
+        "title": "Washed Charcoal / Medium",
+        "price": 3400,
+        "is_available": true
+      },
+      {
+        "id": "cq_tee_l",
+        "title": "Washed Charcoal / Large",
+        "price": 3400,
+        "is_available": true
+      },
+      {
+        "id": "cq_tee_xl",
+        "title": "Washed Charcoal / XL",
+        "price": 3400,
+        "is_available": true
+      },
+      {
+        "id": "cq_tee_2xl",
+        "title": "Washed Charcoal / 2XL",
+        "price": 3400,
+        "is_available": true
+      }
+    ]
+  },
+  {
+    "id": "calder_hoodie_01",
+    "title": "Calder Quinn Campfire Chore Fleece Hoodie",
+    "description": "Heavyweight 400gsm fleece hoodie in weathered dark olive. Built for cold mountain mornings and late tailgate sessions. Double-stitched seams, thick ribbed cuffs, antique brass eyelets, and Calder Quinn heartland emblem on left chest.",
+    "tags": [
+      "Apparel",
+      "Hoodies",
+      "Calder Quinn",
+      "Winter Essentials"
+    ],
+    "price": 5800,
+    "images": [
+      {
+        "src": "images/merch/chore_hoodie.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "cq_hoodie_s",
+        "title": "Weathered Olive / Small",
+        "price": 5800,
+        "is_available": true
+      },
+      {
+        "id": "cq_hoodie_m",
+        "title": "Weathered Olive / Medium",
+        "price": 5800,
+        "is_available": true
+      },
+      {
+        "id": "cq_hoodie_l",
+        "title": "Weathered Olive / Large",
+        "price": 5800,
+        "is_available": true
+      },
+      {
+        "id": "cq_hoodie_xl",
+        "title": "Weathered Olive / XL",
+        "price": 5800,
+        "is_available": true
+      },
+      {
+        "id": "cq_hoodie_2xl",
+        "title": "Weathered Olive / 2XL",
+        "price": 5800,
+        "is_available": true
+      }
+    ]
+  },
+  {
+    "id": "calder_mug_01",
+    "title": "Talk to Headlights Speckled Campfire Mug",
+    "description": "16 oz speckled steel enamel campfire mug in rustic warm cream with dark forest green rim. Lightweight, durable, and shatterproof. Laser-engraved with Calder Quinn Appalachian crest on one side and 'Talk to Headlights on the Wall' lyric on reverse.",
+    "tags": [
+      "Drinkware",
+      "Accessories",
+      "Calder Quinn"
+    ],
+    "price": 1800,
+    "images": [
+      {
+        "src": "images/merch/coffee_mug.jpg"
+      }
+    ],
+    "variants": [
+      {
+        "id": "cq_mug_16oz",
+        "title": "Speckled Cream / 16 oz",
+        "price": 1800,
+        "is_available": true
+      }
+    ]
+  }
+]
