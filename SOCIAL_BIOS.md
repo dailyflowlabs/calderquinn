@@ -1,5 +1,8 @@
 # Calder Quinn — Official Artist Bios & Social Copy
 
+* **Facebook**: https://www.facebook.com/CalderQuinnMusic/
+* **Instagram**: https://www.instagram.com/calderquinnmusic/
+
 ---
 
 ### 1. Facebook Page Bio (Short / Intro Box — Max 101/255 Chars)

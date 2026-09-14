@@ -10,6 +10,8 @@
 * **Hometown:** Pine Hollow, Appalachian foothills
 * **Vibe:** Rugged, quietly handsome, blue-collar poet with a gravel-and-honey singing belt. Wears a broken-in baseball cap pulled low, heavy 5 o'clock shadow, and hands that look like they've spent years turning wrenches or working mill shifts before picking up a worn acoustic guitar. Authentic, honest, and unpolished.
 * **Sound Reference:** Zach Bryan raw chest-voice emotion meets Tyler Childers Appalachian storytelling, Noah Kahan soul, and Chris Stapleton melodic power.
+* **Official Facebook:** https://www.facebook.com/CalderQuinnMusic/
+* **Official Instagram:** https://www.instagram.com/calderquinnmusic/
 
 ---
 
