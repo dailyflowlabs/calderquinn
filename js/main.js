@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const availableVariants = (product.variants && product.variants.length > 0)
-          ? product.variants.filter(v => v.is_available !== false)
+          ? product.variants.filter(v => v.is_available !== false && v.is_enabled !== false)
           : [];
 
         const variantOptions = availableVariants.map(v => `

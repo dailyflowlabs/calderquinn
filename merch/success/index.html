@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmed — Calder Quinn Official Provisioner</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    body {
+      background: #0d0f12;
+      color: #e2e8f0;
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+      box-sizing: border-box;
+      margin: 0;
+    }
+    .success-card {
+      max-width: 640px;
+      width: 100%;
+      background: radial-gradient(circle at top, rgba(30, 24, 18, 0.95), rgba(13, 15, 18, 0.98));
+      border: 1px solid rgba(217, 119, 6, 0.3);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9), 0 0 40px rgba(217, 119, 6, 0.15);
+      border-radius: 12px;
+      padding: 3rem 2rem;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .emblem-badge {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 1.5rem;
+      border-radius: 50%;
+      background: rgba(217, 119, 6, 0.15);
+      border: 2px solid #d97706;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #d97706;
+      font-size: 2.2rem;
+    }
+    .title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      letter-spacing: 0.04em;
+      margin: 0 0 0.75rem;
+      color: #fff;
+    }
+    .subtitle {
+      color: #a8a29e;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin: 0 0 2rem;
+    }
+    .order-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+    .order-box h4 {
+      margin: 0 0 0.8rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1.05rem;
+      color: #f59e0b;
+      border-bottom: 1px solid rgba(217, 119, 6, 0.2);
+      padding-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .order-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+      color: #d6d3d1;
+    }
+    .order-row strong {
+      color: #fff;
+    }
+    .spinner {
+      margin: 2.5rem auto;
+      width: 48px;
+      height: 48px;
+      border: 3px solid rgba(217, 119, 6, 0.2);
+      border-top: 3px solid #d97706;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .btn-home {
+      display: inline-block;
+      background: #d97706;
+      color: #000;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 0.9rem 2.2rem;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      transition: all 0.2s ease;
+      text-transform: uppercase;
+    }
+    .btn-home:hover {
+      background: #f59e0b;
+      box-shadow: 0 0 20px rgba(217, 119, 6, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="success-card">
+    <div class="emblem-badge">✓</div>
+    <h1 class="title">Provision Confirmed</h1>
+    <p class="subtitle" id="statusMessage">Submitting your order directly to the print workshop...</p>
+
+    <div class="spinner" id="loadingSpinner"></div>
+
+    <div class="order-box" id="orderDetails" style="display: none;">
+      <h4>Order Summary</h4>
+      <div class="order-row">
+        <span>Item:</span>
+        <strong id="itemTitle">—</strong>
+      </div>
+      <div class="order-row">
+        <span>Details:</span>
+        <strong id="itemVariant">—</strong>
+      </div>
+      <div class="order-row">
+        <span>Quantity:</span>
+        <strong id="itemQty">—</strong>
+      </div>
+      <div class="order-row">
+        <span>Dispatch To:</span>
+        <strong id="shippingAddress">—</strong>
+      </div>
+      <div class="order-row">
+        <span>Confirmation Sent To:</span>
+        <strong id="customerEmail">—</strong>
+      </div>
+    </div>
+
+    <div>
+      <a href="/" class="btn-home">Return to Calder Quinn</a>
+    </div>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const sessionId = urlParams.get('session_id');
+
+    if (!sessionId) {
+      document.getElementById('statusMessage').textContent = 'Order session confirmed. Thank you for supporting independent music!';
+      document.getElementById('loadingSpinner').style.display = 'none';
+    } else {
+      fetch('/api/merch/order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sessionId })
+      })
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('loadingSpinner').style.display = 'none';
+        if (data.success) {
+          document.getElementById('statusMessage').textContent = 'Your order has been routed to the print house and will ship with live tracking.';
+          document.getElementById('orderDetails').style.display = 'block';
+          document.getElementById('itemTitle').textContent = data.productTitle || 'Calder Quinn Official Merchandise';
+          document.getElementById('itemVariant').textContent = data.variantTitle || 'Standard';
+          document.getElementById('itemQty').textContent = data.quantity || '1';
+          document.getElementById('customerEmail').textContent = data.email || 'Your Email';
+          
+          if (data.shipping && data.shipping.address) {
+            const addr = data.shipping.address;
+            document.getElementById('shippingAddress').textContent = ;
+          }
+        } else {
+          document.getElementById('statusMessage').textContent = 'Payment received! Your order is being processed.';
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById('loadingSpinner').style.display = 'none';
+        document.getElementById('statusMessage').textContent = 'Payment confirmed! We are fulfilling your order.';
+      });
+    }
+  </script>
+
+</body>
+</html>
