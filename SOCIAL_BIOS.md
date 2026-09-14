@@ -3,7 +3,7 @@
 ---
 
 ### 1. Facebook Page Bio (Short / Intro Box — Max 101/255 Chars)
-> Heartland Americana & rustbelt country from the Appalachian foothills. 10-track debut album "Leave the Light in the Hollow" out now. 🌲📻
+> Heartland Americana & rustbelt country from the Appalachian foothills. Self-titled 10-track debut album "Calder Quinn" out now. 🌲📻
 
 ---
 
@@ -12,9 +12,9 @@
 >
 > With a weathered Martin acoustic, a broken-in cap pulled low, and a voice that carries the weight of a ten-hour mill shift, Calder writes for the folks who know what it feels like to leave a porch light burning out of habit. His music lives in coffee rings on hardware store counters, dusty pickup tailgates at twilight, and empty two-lane highways where you talk to headlights on the wall.
 >
-> From the four-on-the-floor asphalt drive of "Halfway Home" to the roof-shaking chest-voice roar of the title track "Leave the Light in the Hollow" and the quiet reverie of "That's the Whole Prayer," Calder’s 10-track debut record isn't chasing polished trends—it’s honest working-class poetry made for the ride home.
+> From the four-on-the-floor asphalt drive of "Halfway Home" to the roof-shaking chest-voice roar of the title track "Leave the Light in the Hollow" and the quiet reverie of "That's the Whole Prayer," Calder’s self-titled 10-track debut record "Calder Quinn" isn't chasing polished trends—it’s honest working-class poetry made for the ride home.
 >
-> 🌲 Debut 10-track album out now.
+> 🌲 Self-titled debut 10-track album out now.
 > 🎧 Stream all tracks, watch the live concert & grab merch at: https://calderquinn.com
 > ✉️ Join The Hollow Club: https://calderquinn.com/#join
 
@@ -23,7 +23,7 @@
 ### 3. Debut Facebook Launch Post (Pair with 3000x3000 Album Art)
 > "I can hold it in the kitchen, I can hold it in the truck... but the second that night hits the ridgeline, I leave the light in the hollow."
 >
-> My debut 10-track album "Leave the Light in the Hollow" is out now.
+> My self-titled 10-track debut album "Calder Quinn" is out now.
 >
 > Wrote these songs for long shifts, back-road drives, and the quiet moments we keep to ourselves. From "Halfway Home" to "That's the Whole Prayer," every word was lived before it was sung.
 >
